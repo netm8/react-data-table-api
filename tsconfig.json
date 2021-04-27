@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/app/*"]
+    },
+    "plugins": [{ "transform": "typescript-transform-paths" }],
+    "esModuleInterop": true
+  },
+}
